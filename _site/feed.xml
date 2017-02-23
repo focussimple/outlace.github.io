@@ -7,6 +7,14 @@
     <atom:link href="http://outlace.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Topological Data Analysis - Persistent Homology</title>
+        <description></description>
+        <pubDate>Wed, 22 Feb 2017 00:00:00 -0800</pubDate>
+        <link>http://outlace.github.io/Topological+Data+Analysis+Tutorial+-+Part+1/</link>
+        <guid isPermaLink="true">http://outlace.github.io/Topological+Data+Analysis+Tutorial+-+Part+1/</guid>
+      </item>
+    
+      <item>
         <title>Q-learning with Neural Networks</title>
         <description></description>
         <pubDate>Fri, 30 Oct 2015 00:00:00 -0700</pubDate>
@@ -285,14 +293,6 @@ $$ \frac{\partial{C}}{\partial{\theta_1}} = (\theta_2 * (L3 - y)) \odot (L2(1 - 
         <pubDate>Fri, 31 Jul 2015 00:00:00 -0700</pubDate>
         <link>http://outlace.github.io/Beginner-Tutorial-Backpropagation/</link>
         <guid isPermaLink="true">http://outlace.github.io/Beginner-Tutorial-Backpropagation/</guid>
-      </item>
-    
-      <item>
-        <title>Simple Genetic Algorithm In 15 Lines Of Python</title>
-        <description></description>
-        <pubDate>Wed, 15 Jul 2015 00:00:00 -0700</pubDate>
-        <link>http://outlace.github.io/Simple-Genetic-Algorithm-in-15-lines-of-Python/</link>
-        <guid isPermaLink="true">http://outlace.github.io/Simple-Genetic-Algorithm-in-15-lines-of-Python/</guid>
       </item>
     
   </channel>

@@ -291,11 +291,11 @@ nav a {
 
 .post blockquote {
   margin: 1.8em .8em;
-  border-left: 2px solid #666;
+  border-left: 3px solid #666;
   padding: 0.1em 1em;
-  color: #666;
-  font-size: 22px;
-  font-style: italic;
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
 }
 .post .comments {
   margin-top: 10px;

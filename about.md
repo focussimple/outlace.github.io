@@ -11,7 +11,6 @@ Although I spend most of my time learning medical stuff these days, I've always 
 strong interest in machine learning and artificial intelligence. Unfortunately,
 I don't have a very quantitative background (I majored in Neuroscience in college)
 so I'm attempting to teach myself the fundamentals and will share my journey on this blog.
-My dream career would involve the combination of medicine and machine learning; hopefully I can pull it off one day.
 
 ### Contact me
 
