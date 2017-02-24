@@ -7,6 +7,14 @@
     <atom:link href="http://outlace.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Persistent Homology (Part 2)</title>
+        <description></description>
+        <pubDate>Wed, 22 Feb 2017 00:00:00 -0800</pubDate>
+        <link>http://outlace.github.io/Topological+Data+Analysis+Tutorial+-+Part+2/</link>
+        <guid isPermaLink="true">http://outlace.github.io/Topological+Data+Analysis+Tutorial+-+Part+2/</guid>
+      </item>
+    
+      <item>
         <title>Topological Data Analysis - Persistent Homology</title>
         <description></description>
         <pubDate>Wed, 22 Feb 2017 00:00:00 -0800</pubDate>
@@ -285,14 +293,6 @@ $$ \frac{\partial{C}}{\partial{\theta_1}} = (\theta_2 * (L3 - y)) \odot (L2(1 - 
         <pubDate>Wed, 05 Aug 2015 00:00:00 -0700</pubDate>
         <link>http://outlace.github.io/Simple-Recurrent-Neural-Network/</link>
         <guid isPermaLink="true">http://outlace.github.io/Simple-Recurrent-Neural-Network/</guid>
-      </item>
-    
-      <item>
-        <title>Gradient Descent with Backpropagation</title>
-        <description></description>
-        <pubDate>Fri, 31 Jul 2015 00:00:00 -0700</pubDate>
-        <link>http://outlace.github.io/Beginner-Tutorial-Backpropagation/</link>
-        <guid isPermaLink="true">http://outlace.github.io/Beginner-Tutorial-Backpropagation/</guid>
       </item>
     
   </channel>
