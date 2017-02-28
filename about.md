@@ -14,6 +14,6 @@ so I'm attempting to teach myself the fundamentals and will share my journey on 
 
 ### Contact me
 
-[outlacedev@gmail.com](mailto:outlacedev@gmail.com)
+<img src="/images/emailaddr.svg" />
 
 BTC: 17nXFGVZPTd6haVTAjvik4Wm3Cw7QCJxKw
