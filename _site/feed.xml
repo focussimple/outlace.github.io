@@ -7,6 +7,15 @@
     <atom:link href="http://outlace.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Persistent Homology (Part 4)</title>
+        <description>
+</description>
+        <pubDate>Thu, 23 Feb 2017 00:00:00 -0800</pubDate>
+        <link>http://outlace.github.io/Topological+Data+Analysis+Tutorial+-+Part+4/</link>
+        <guid isPermaLink="true">http://outlace.github.io/Topological+Data+Analysis+Tutorial+-+Part+4/</guid>
+      </item>
+    
+      <item>
         <title>Persistent Homology (Part 3)</title>
         <description>
 </description>
@@ -288,15 +297,6 @@ and we’ll substitute in $\delta^3$
         <pubDate>Sat, 05 Sep 2015 00:00:00 -0700</pubDate>
         <link>http://outlace.github.io/Computational-Graph/</link>
         <guid isPermaLink="true">http://outlace.github.io/Computational-Graph/</guid>
-      </item>
-    
-      <item>
-        <title>Simple(r) RNN in Julia</title>
-        <description>
-</description>
-        <pubDate>Mon, 10 Aug 2015 00:00:00 -0700</pubDate>
-        <link>http://outlace.github.io/Simple-RNN-in-Julia/</link>
-        <guid isPermaLink="true">http://outlace.github.io/Simple-RNN-in-Julia/</guid>
       </item>
     
   </channel>

@@ -1,68 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Persistent Homology (Part 3) – Δ ℚuantitative √ourney – ∑ My experiences in learning quantitative applications</title>
-
-        <meta charset="utf-8" />
-    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-
-    
-    <meta name="description" content="In part 3 we start calculating homology groups and Betti numbers of simplicial complexes." />
-    <meta property="og:description" content="In part 3 we start calculating homology groups and Betti numbers of simplicial complexes." />
-    
-    <meta name="author" content="Δ ℚuantitative √ourney" />
-
-    
-    <meta property="og:title" content="Persistent Homology (Part 3)" />
-    <meta property="twitter:title" content="Persistent Homology (Part 3)" />
-    
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="Δ ℚuantitative √ourney - ∑ My experiences in learning quantitative applications" href="/feed.xml" />
-
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
-
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="/" class="site-avatar"><img src="/images/machine-learning.jpg" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="/">Δ ℚuantitative √ourney</a></h1>
-            <p class="site-description">∑ My experiences in learning quantitative applications</p>
-          </div>
-
-          <nav>
-            <a href="/">Blog</a>
-            <a href="/about">About</a>
-          </nav>
-        </header>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-      <style>
-  .container {
-    max-width: 90vw;
-  }
-</style>
-
-<article class="post">
-  <h1>Persistent Homology (Part 3)</h1>
-
-  <div class="entry">
-    <!DOCTYPE html>
-<html>
 <head><meta charset="utf-8" />
-<title>TDA - Persistent Homology - Part 3</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>TDApart4</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -8512,15 +8451,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box
+/* This file is a compatability layer.  It allows the usage of flexible box 
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this
+`Modern browsers` comments below).  Browsers that are known to implement this 
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+
+    Internet Explorer 11+ 
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -11294,7 +11233,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for
+  /* This injects handle bars (a short, wide = symbol) for 
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -11737,7 +11676,7 @@ ul.typeahead-list > li > a {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
-
+    
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -11793,14 +11732,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  }
-  div.output_wrapper {
+  } 
+  div.output_wrapper { 
     display: block;
-    page-break-inside: avoid;
+    page-break-inside: avoid; 
   }
-  div.output {
+  div.output { 
     display: block;
-    page-break-inside: avoid;
+    page-break-inside: avoid; 
   }
 }
 </style>
@@ -11839,7 +11778,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Topological-Data-Analysis---Part-3---Persistent-Homology">Topological Data Analysis - Part 3 - Persistent Homology<a class="anchor-link" href="#Topological-Data-Analysis---Part-3---Persistent-Homology">&#182;</a></h2>
+<h2 id="Topological-Data-Analysis---Part-4---Persistent-Homology">Topological Data Analysis - Part 4 - Persistent Homology<a class="anchor-link" href="#Topological-Data-Analysis---Part-4---Persistent-Homology">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -11849,8 +11788,8 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>This is Part 3 in a series on topological data analysis.
-See <a href="/Topological+Data+Analysis+Tutorial+-+Part+1/">Part 1</a> | <a href="/Topological+Data+Analysis+Tutorial+-+Part+2/">Part 2</a></p>
-<p>In this part we begin to apply our the math we learned from Parts 1-2 to actually calculating the interesting topological features of a simplicial complex.</p>
+See <a href="/Topological+Data+Analysis+Tutorial+-+Part+1/">Part 1</a> | <a href="/Topological+Data+Analysis+Tutorial+-+Part+2/">Part 2</a> | <a href="/Topological+Data+Analysis+Tutorial+-+Part+3/">Part 3</a></p>
+<p>In this part we learn more about how linear algebra can help us calculate topological features in a computationally efficient manner.</p>
 
 </div>
 </div>
@@ -11860,7 +11799,17 @@ See <a href="/Topological+Data+Analysis+Tutorial+-+Part+1/">Part 1</a> | <a href
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Back-to-simplicial-homology">Back to simplicial homology<a class="anchor-link" href="#Back-to-simplicial-homology">&#182;</a></h4><p>We've finally covered enough group theory to be able to finish our calculations of homology groups on simplicial complexes. As you should recall, we had given definitions for the n-th homology group and the n-th Betti numbers.</p>
+<h3 id="Linear-algebra-saves-the-day">Linear algebra saves the day<a class="anchor-link" href="#Linear-algebra-saves-the-day">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You might have noticed that calculating the homology groups and Betti numbers by hand can be very tedious and impractical for anything larger than the simple examples we've considered thus far. Fortunately, there are better ways. In particularly, we can represent most of the computation of homology groups in terms of vectors and matrices and computers are very efficient when working with vectors and matrices.</p>
+<p>Now, we already went over what a vector is (an element in a vector space) but what is a matrix? You probably think of a matrix has a kind of 2-dimensional grid of numbers, and you know you can multiply matrices by other matrices and vectors and what not. Well a grid of numbers is certainly a convenient notation for matrices, but that's not what they <em>are</em>.</p>
 
 </div>
 </div>
@@ -11870,137 +11819,91 @@ See <a href="/Topological+Data+Analysis+Tutorial+-+Part+1/">Part 1</a> | <a href
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Betti number's are what we ultimately want. They nicely summarize the topological properties of a simplicial complex. If we have a simplicial complex that forms a single circular object, then $b_0$ (the 0th Betti Number) represents the number of connected components which is 1, $b_1$ is the number of 1-dimensional holes (i.e. cycles) which is 1, and $b_n, n \gt 1$ are the higher-dimensional holes of which there are zero.</p>
-<p>Let's see if we can calculate the Betti Numbers of a simple triangle simplicial complex.</p>
-<p>Recall that $\mathcal T = \text{ { {a}, {b}, {c}, [a, b], [b, c], [c, a]} }$. (Depicted below).
-<img src="/images/TDAimages/triangleSimplex.svg" /></p>
-<p>Since we know, by visual inspection, that $T$ <em>should</em> have Betti numbers $b_0 = 1$ (1 connected component), $b_1 = 1$ (1 one-dimensional hole), we will only compute those Betti numbers.</p>
-<p>Let's walk through the whole sequence of steps slowly. First we'll note the n-chains.</p>
-<p>The 0-chain is the set of 0-simplices: $\text{ { {a}, {b}, {c} } }$
-The 1-chain is the set of 1-simplices: $\text{ [a, b], [b, c], [c, a] }$
-There are no higher-dimensional n-chains.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Now we can use the n-chains to define our <em>chain groups</em>. We're going to be using coefficients from $\mathbb Z_2$, which is a field, and remember there are only 2 elements $\{0,1\}$ where $1+1=0$.</p>
-<p>The 0-chain group is defined as:
-$$C_0 = \{\{x*(a,0,0)\}, \{y*(0,b,0)\}, \{z*(0,0,c)\} \mid x,y,z \in \mathbb Z_2\} \\$$
-Remember a group only has an addition operation defined but we're <em>building</em> the group by using a multiplication operation from the field $\mathbb Z_2$. So this group is actually isomorphic to $\mathbb Z_{2}^{3} = Z_{2} \oplus Z_{2} \oplus Z_{2}$.</p>
-<p>But we also want to represent our chain groups as a vector space. This means it becomes a structure where elements can be scaled up or down (i.e. multiplication operation) by elements of a field (in our case $\mathbb Z_2$) and added together, with all results still contained in the structure. If we only pay attention to the addition operation then we're basically looking at its group structure, whereas if we pay attention to both the multiplcation and addition operations then we are considering it as a vector space.</p>
-<p>0-chain vector space is generated by:
-$$\mathscr C_0 = \{\{x*(a,0,0)\}, \{y*(0,b,0)\}, \{z*(0,0,c)\} \mid x,y,z \in \mathbb Z_2\} \\$$
-(Yes it's the same set that forms the group from above).</p>
-<p>The vector space is the set of elements we can multiply by 0 or 1, and add them together. For example, we can do: $1*(a,0,0) + 1*(0,0,c) = (a,0,c)$. This vector space is so small $(2^3=8\ \text{elements})$ we can actually list out all the elements. Here they are:</p>
-$$\mathscr{C_0} = \begin{Bmatrix} (a,0,0), (0,b,0), (0,0,c), (a,b,0) \\
- (a,b,c), (0,b,c), (a,0,c), (0,0,0) \end{Bmatrix} \\ $$<p>You can see that we can add any two elements in this vector space and the result will be another element in the vector space. A random example: $(a,0,c) + (a,b,c) = (a+a,0+b,c+c) = (0,b,0)$. Recall addition is component-wise. We can also multiply vectors by an element in our field $\mathbb Z_2$ but since our field is finite with only 2 elements, it's not very interesting, e.g. $1*(a,b,0) = (a,b,0)$ and $0*(a,b,0) = (0,0,0)$, but none the less, the multiplication operation still results in an element within our vector space.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>We can represent this vector space as a polynomial, so our 0-chain vector space can be defined equivalently as:
-$$ \mathscr{C_0} = \{xa + yb + zc \mid z,y,z \in \mathbb Z_2\}$$
-We can easily translate a polynomial like $a+b+c$ to its ordered-set notation $(a,b,c)$. Or $a+b$ is $(a,b,0)$. The vector space seen as a set of polynomials looks like this:
-$$ \mathscr{C_0} = \begin{Bmatrix} \text{ {a}, {b}, {c}, {a+b} $\\$
-{a+b+c}, {b+c}, {a+c}, {0} } \end{Bmatrix} \\ $$
-It's more convenient to work with the polynomial form, in general, because we can make familiar algebraic equations like $$a+b=0 \\
-a = -b \\
-a = b $$
-(Recall that the inverse of an element in $\mathbb Z_2$ is just itself, hence $-b = b$ where "$-$" denotes inverse).</p>
-<blockquote><p><strong>NOTE</strong>: It is very important to keep track of whether we're talking about groups or vector spaces. I will use a normal letter $C$ to denote the chain <strong>group</strong> and the fancy script $\mathscr{C}$ to denote the chain <strong>(vector) space</strong>. They have the same underlying <em>set</em>, only different operations defined. If we talk about the group form we can only reference its addition operation, whereas if we talk about its vector space form we can talk about its multiplication and addition operation.</p>
+<h5 id="What's-a-matrix?">What's a matrix?<a class="anchor-link" href="#What's-a-matrix?">&#182;</a></h5><p>By this point, you should be comfortable with the idea of a function or map. These are both ways of translating one type of mathematical structure into another (or at least mapping one element in a structure to a different element in the same structure). In particular, we've spent a good amount of time working with boundary maps that mapped a higher-dimensional chain group to a lower dimensional chain group that preserved the structure of the original group in some way (it is a homomorphism).</p>
+<p>So just like we can have a map between two groups, we can have a map between two vector spaces. And we call (linear) maps between vector spaces, <strong>matrices</strong>. A matrix basically applies a linear transformation on a vector space (or individual vector element) producing new vector space. A <em>linear</em> transformation just implies that we can only transform the vector space via the normal vector operations of scaling by a constant and addition of a constant vector.</p>
+<blockquote><p><strong>Definition (Linear Tansformation)</strong> <br />
+More precisely, a linear transformation $M\ :\ V_1 \rightarrow V_2$ is a map $M$ from the vector spaces $V_1$ to $V_2$ such that $M(V_1 + V_2) = M(V_1) + M(V_2)$ and $M(aV_1) = aM(V_1)$ where $a$ is a scalar.</p>
 </blockquote>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Let's do the same for the 1-chains: $\text{ [a, b], [b, c], [c, a] }$. We can use the 1-chain set to define another chain group, $C_1$. It will be isomorphic to $C_0$ and hence $\mathbb Z_{2}^{3}$.
-$$C_1 = \{\ (\ x([a, b]), y([b, c]), z([c, a])\ ) \mid x,y,z \in \mathbb Z_2\ \} $$</p>
-<p>We can define a vector space, $\mathscr C_1$, using this chain group in the same way we did for $C_0$. I will use the polynomial form henceforth. Remember, the chain group and vector space have the same set, its just that the vector space has two binary operations instead of one.</p>
-<p>This is the full list of elements in the vector space:
-$$\mathscr{C_1} = \begin{Bmatrix} \text{
-{[a, b]}, {[b, c]}, {[c, a]}, {[a, b] + [b, c]}, $\\$
-{[b, c] + [c, a]}, {[a, b] + [c, a]}, {[a, b] + [b, c] + [c, a]}, {0} } \end{Bmatrix}  \\$$</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Just for clarification about the boundary map, here is a diagram of it. This shows how the boundary operator maps each element in $C_1$ to an element in $C_0$.
-<img src="/images/TDAimages/boundarymap1.png" /></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Now we can start computing the first Betti number, $b_0$.</p>
-<p>Recall the definition of a Betti number is:</p>
-<blockquote><p>The n-th Betti number, $b_n = dim(H_n)$, where $H_n$ is the n-th homology group.</p>
-</blockquote>
-<p>And recall the definition of a homology group</p>
-<blockquote><p>The $n^{th}$ Homology Group $H_n$ is defined as $H_n$ = Ker $\partial_n \ / \ \text{Im } \partial_{n+1}$.</p>
-</blockquote>
-<p>Lastly, recall the definition of a kernel:</p>
-<blockquote><p>The kernel of $\partial(C_n)$, denoted $\text{Ker}(\partial(C_n))$ is the group of $n$-chains $Z_n \subseteq C_n$ such that $\partial(Z_n) = 0$</p>
-</blockquote>
-<p>So first we need the kernel of the boundary of $C_0$, Ker $\partial(C_0)$. Remember the boundary map $\partial$ gives us a map from $C_n \rightarrow C_{n-1}$.</p>
-<p>In all cases, the boundary of a 0-chain is $0$, thus the Ker $\partial(C_0)$ is the whole 0-chain.</p>
-$$\text{Ker} \partial(C_0) = \{a, b, c\}$$<p>This forms another group we will denote $Z_0$ (or $Z_n$ generally), the group of 0-cycles, which in general is a subgroup of $C_0$, i.e. $Z_n \leq C_n$. With addition defined over $\mathbb Z_2$ then $Z_0$ is also ismorphic to $\mathbb Z_2$ and hence is the same as $C_0$.</p>
-<p>The other thing we need to find the homology group $H_0$ is $\text{Im } \partial_{1}$. This forms a subgroup of $Z_0$ that we denote $B_0$ (or more generally $B_n$) which is the group of boundaries of the (n+1)-chain. Hence, $B_n \leq Z_n \leq C_n$.</p>
-$$\partial{C_1} = \partial({[a, b], [b, c], [c, a]} = (a + b) + (b + c) + (c + a) \\
-\partial{C_1} = (a + b) + (b + c) + (c + a) = (a + a) + (b + b) + (c + c) = (0) + (0) + (0) = 0 \\
-\partial{C_1} = 0 $$<p>So $\text{Im } \partial_{1} = {0}$</p>
-<p>Thus we compute the quotient group $H_0 = Z_0\ /\ B_0$, which in this case is:
-$$Z_0 = \text { { {a, b, c}, {0} } } \\
-B_0 = \{0\} $$
-so we take the left cosets of $\{0\}$ for the two elements in $Z_0$ to get the quotient group, which gives us:
-$$ Z_0\ /\ B_0 = \text { { {a, b, c}, {0} } } = Z_0$$</p>
-<p>So in general, if $B_n = \{0\}$ then $Z_n\ /\ B_n = Z_n$. Hence $H_0 = Z_0$.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The Betti number $b_0$ is the dimension of $H_0 = Z_0$. What is the dimension of $H_0$? Well, it has two elements, but the dimension is defined as the smallest set of generators for a group, and since this group is isomorphic to $\mathbb Z_2$, it only has 1 generator. For $\mathbb Z_2$ the generator is $1$, since the whole group can be formed by repeatedly applying the addition operation on $1$, i.e. $1+1=0, 1+1+1 = 1$ and now we have the full $\mathbb Z_2$.</p>
-<p>So $b_0 = dim(H_0) = 1$, which is what we expected, this simplicial complex has 1 connected component.</p>
-<p>Now let's start calculating Betti $b_1$ for the 1-dimension. This time it will be a bit different because figuring out $\text{Ker}\partial(C_1)$ is going to be more involved. We're going to need to do some algebra.</p>
-<p>So, we first want $Z_1$, the group of 1-cycles. This is the set of 1-simplices whose boundary is 0. Remember the 1-chain is $\{ [a,b], [b,c], [c,a]\}$ and forms the 1-chain group $C_1$ when applied over $\mathbb Z_2$. We will setup an equation like this:</p>
+<p>Let's say we want to map the real-valued volume $\mathbb R^3$ to the plane $\mathbb R^2$.</p>
 $$
-\require{cancel}
 \begin{aligned}
-\mathscr C_1 &= \lambda_0([a,b]) + \lambda_1([b,c]) \lambda_2([c,a]) \text{ ... where $\lambda_n \in \mathbb Z_2$. $\\$ This is the general form of any element in the vector space $\mathscr C_1$} \\
-\lambda_0([a,b]) + \lambda_1([b,c]) + \lambda_2([c,a]) &= 0 \text{ ... then take the boundary of that} \\
-\partial(\lambda_0([a,b]) + \lambda_1([b,c]) + \lambda_2([c,a])) &= 0 \\
-\lambda_0(a+b) + \lambda_1(b+c) + \lambda_2(c+a) &= 0 \\
-\lambda_0{a} + \lambda_0{b} + \lambda_1{b} + \lambda_1{c} + \lambda_2{c} + \lambda_2{a} &= 0 \\
-a(\lambda_0 + \lambda_2) + b(\lambda_0 + \lambda_1) + c(\lambda_1 + \lambda_2) &= 0 \text{ ...factor out the a,b,c} \\
+V_1 &= span\{(1,0,0),(0,1,0),(0,0,1)\} \\
+V_2 &= span\{(1,0),(0,1)\}
 \end{aligned}
+$$<p>Now, what if I want to map $V_1$ to $V_2$, that is, I want to send every point in $V_1$ to a point in $V_2$. There are many reasons why I might want to do something like this. If I'm making a graphics application, for example, I want to offer an option to rotate images drawn, and this is simply a matter of applying a linear transformation on the pixels.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>So we want a map $M : V_1 \rightarrow V_2$, and we'll call this map a matrix. Notice that $V_1$ has a basis with 3 elements, and $V_2$ has a basis with 2 elements. In order to map from one space to the other, we just need to map one basis set to another basis set. And remember, since this is a linear map, all we are allowed to do to a basis is multiply it by a scalar or add another vector to it; we can't do exotic things like square it or take the logarithm.</p>
+<p>Let's call the 3 basis elements of $V_1: B_1, B_2, B_3$. Hence, $V_1 = \langle{B_1, B_2, B_3}\rangle$.
+Similarly, we'll call the 2 basis elements of $V_2: \beta_1, \beta_2$. Hence, $V_2 = \langle{\beta_1, \beta_2}\rangle$. (Remember the angle brackets $\langle\rangle$ mean span, i.e. the set of all linear combinations of those elements). We can setup equations such that any vector in $V_1$ can be mapped to a vector in $V_2$ by using the fact that each vector space can be defined by their bases.</p>
+<blockquote><p><em>New Notation (Vector)</em> <br />
+To prevent confusion between symbols that refer to scalars and symbols that refer vectors, I will henceforth add a little arrow over every vector $\vec{v}$ to denote it is a vector, not a scalar. Remember, the scalar is just a single element from the underlying field $F$ over which the vector space is defined.</p>
+</blockquote>
+<p>We can define our map $M(V_1) = V_2$ in this way:</p>
+$$
+\begin{aligned}
+M(B_1) &= a\vec \beta_1 + b\vec \beta_2 \mid a,b \in \mathbb R \\
+M(B_2) &= c\vec \beta_1 + d\vec \beta_2 \mid c,d \in \mathbb R \\
+M(B_3) &= e\vec \beta_1 + f\vec \beta_2 \mid e,f \in \mathbb R \\
+\end{aligned}
+$$<p>That is, the map from each basis in $V_1$ is setup as a linear combination of the basis elements in $V_2$. This requires us to define a total of 6 new pieces of data: $a,b,c,d,e,f \in \mathbb R$ required for our mapping. We just have to keep track of the fact that $a,b$ are for mapping to $\beta_1$ and $d,e,f$ are for mapping to $\beta_2$. What's a convenient way to keep track of all of that? Oh I know, a matrix!</p>
+$$
+M = 
+\begin{pmatrix}
+a & c & e \\
+b & d & f \\
+\end{pmatrix}
+$$<p>That is a very convenient way to represent our map $M\ :\ V_1 \rightarrow V_2$ indeed. Notice that each <em>column</em> of this matrix corresponds to the "mapping equation" coefficients for each M(B_n). Also notice that the dimensions of this matrix, $2\times3$, corresponds to the dimensions of the two vector spaces we're mapping to and from. That is, any map $\mathbb R^n \rightarrow \mathbb R^m$ will be represented as an $m\times n$ matrix. It is important to keep in mind that since the linear map (and hence the matrix) depend on coefficients applied to a basis, then the matrix elements will change if one uses a different basis.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Knowing this we can easily see how vector-matrix multiplication <em>should</em> work and why the dimensions of a matrix and vector have to correspond. Namely, a $n \times m$ vector/matrix multiplied by a $j \times k$ vector/matrix must produce a $n \times k$ vector/matrix, and for it to work at all, $m = j$.</p>
+<p>This is how we can multiply our matrix map $M$ by any vector in $V_1$ to produce the mapped-to vector in $V_2$:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$
+M(\vec v\ \in\ V_1)
+=
+\underbrace{
+\begin{bmatrix}
+a & c & e \\
+b & d & f \\
+\end{bmatrix}}_{M:V_1\rightarrow V_2}
+\underbrace{
+\begin{pmatrix}
+x \\ y \\ z \\
+\end{pmatrix}}_{\vec v\ \in\ V_1}
+=
+\underbrace{
+\begin{bmatrix}
+a * x & c * y & e * z \\
+b * x & d * y & f * z \\
+\end{bmatrix}}_{M:V_1\rightarrow V_2}
+=
+\begin{pmatrix}
+a * x + c * y + e * z \\
+b * x + d * y + f * z \\
+\end{pmatrix}
 $$
 </div>
 </div>
@@ -12010,17 +11913,20 @@ $$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>For this equation to be satisfied, then all the coefficients $\lambda_n$ for each term need to sum to 0 to make $a,b,c$ go to $0$. That is, if the whole equation goes to $0$, then each term like $a(\lambda_0 + \lambda_2) = 0$, hence $(\lambda_0 + \lambda_2) = 0, $. So now we basically have a system of linear equations:</p>
-$$\lambda_0 + \lambda_2 = 0 \\
-\lambda_0 + \lambda_1 = 0 \\
-\lambda_1 + \lambda_2 = 0 \\
-\text{...now solve...} \\
-\lambda_0 = \lambda_2 \\
-\lambda_0 = \lambda_1 \\
-\lambda_1 = \lambda_1 \\
-\lambda_0 = \lambda_1 = \lambda_2 \\
-\text{So for the equation above to be satisfied, all the coefficients $\lambda_n$ must be equal. Let's just replace all the lambdas with a single symbol, phi, i.e...} \\
-\lambda_0, \lambda_1, \lambda_2 = \phi$$
+<p>Ok now we know a matrix is a linear map between two vector spaces. But what happens if you multiply two matrices together? Well that is just a composition of maps. For example, we have three vector spaces $T, U, V$ and two linear maps $m_1, m_2$:</p>
+$$ T \stackrel{m_1}{\rightarrow} U \stackrel{m_2}{\rightarrow} V$$<p>To get from $T$ to $V$, we need to apply both maps: $m_2(m_1(T)) = V$. Hence, multiplying two matrices together gives us a composition of maps $m_2 \circ m_1$. The <em>identity</em> matrix is an identity map (i.e. it doesn't change the input) that takes the form where 1s are along the diagonal and 0s everywhere else, e.g.:</p>
+$$
+m=
+\begin{bmatrix}
+\ddots & 0 & 0 & 0 & ⋰ \\
+0 & 1 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 1 & 0 \\
+⋰ & 0 & 0 & 0 & \ddots \\
+\end{bmatrix}
+\\
+m \vec V = \vec V
+$$
 </div>
 </div>
 </div>
@@ -12029,18 +11935,235 @@ $$\lambda_0 + \lambda_2 = 0 \\
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Now, let's go back to the general expression for the 1-chain vector space $\mathscr C_1 =  \lambda_0([a,b]) + \lambda_1([b,c]) + \lambda_2([c,a])$. When we take the boundary of that and set it to 0, we get $\lambda_0 = \lambda_1 = \lambda_2$, and I proposed we just replace those with one symbol, $\phi$.</p>
-<p>Hence, the cycle group:
-$$Z_1 \leq \mathscr C_1 = \phi([a,b]) + \phi([b,c]) + \phi([c,a]) \\
-Z_1 = \phi([a,b] + [b,c] + [c,a]), \text{ ...remember $\phi$ is from $\mathbb Z_2$ so it is either 0 or 1.}
+<h4 id="Back-to-simplicial-homology-(again)">Back to simplicial homology (again)<a class="anchor-link" href="#Back-to-simplicial-homology-(again)">&#182;</a></h4><p>We learned all of that so we can represent the boundary map $\partial(C_n)$ as a <strong>matrix</strong> so we can apply the tools of linear algebra. This makes sense since we already know that the chain groups $C_n$ can be viewed as vector spaces when we allow scalar multiplication, so then a linear map between the chain vector spaces is the boundary map, that we can represent as a matrix.</p>
+<p>We represent an $n$-boundary map, i.e. $\partial(C_n)$, where $n$ is the dimension of the chain group, $k$ is the number of simplices in $C_n$ and $l$ is the number of simplices in $C_{n-1}$, as a matrix with $k$ columns and $l$ rows. Thus each column represents a simplex in $C_n$ and each row represents a simplex in $C_{n-1}$. We put a $1$ in a cell of the matrix if the simplex in that column maps to the simplex in that row. For example, $\partial([a,b]) = a - b$ if the field is $\mathbb Z$, so we will put a $1$ in the row for $a$ and $b$ since the 1-simplex $[a,b]$ maps to those two 0-simplices.</p>
+<p>Let's try calculating the homology groups of the previous simplicial complex (depicted below again) using matrices and vectors. We're going to go back to using $\mathbb Z_2$ as our field (so simplex orientation can be ignored) because it is computationally more efficient to do so.</p>
+$$ S = \text{ {[a], [b], [c], [d], [a, b], [b, c], [c, a], [c, d], [d, b], [a, b, c]} } $$<p><img src="../images/TDAimages/part4/simplicialcomplex5b.svg" /></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Since we're using the (very small) finite field $\mathbb Z_2$ then we can actually list out all the vectors in our chain (group) vector space. We have 3 chain groups, namely the group of 0-simplices (vertices), 1-simplices (edges), and 2-simplices (triangle).</p>
+<p>In our example, we only have a single 2-simplex: [a,b,c], thus the group it generates over the field $\mathbb Z_2$ is only $\{0, [a,b,c]\}$ which is isomorphic to $\mathbb Z_2$. Recall, in general, the group generated by the number $n$ of $p$-simplices in a simplicial complex is isomorphic to $\mathbb Z^n_2$. For a computer to understand, we can encode the group elements just using their coefficients 1 or 1. So, for example, the group generated by $[a,b,c]$ can just be represented as $\{0,1\}$. Or the group generated by the 0-simplices $\{a, b, c, d\}$ can be represented by 4-dimensional vectors, for example, if a group element is $a+b+c$ then we encode this as $(1, 1, 1, 0)$ where each position represents the presence or abscence of $(a, b, c, d)$, respectively.</p>
+<p>Here are all the chain groups represented as vectors with just coefficients (I didn't list all elements for $C_1$ since there are so many [32]):</p>
+$$
+\begin{align}
+C_0
+&=
+\left\{
+\begin{array}{ll}
+(0,0,0,0) & (1,0,0,0) & (0,1,1,0) & (0,1,0,1) \\ 
+(0,1,0,0) & (0,0,1,0) & (0,0,1,1) & (0,1,1,1) \\ 
+(0,0,0,1) & (1,1,0,0) & (1,0,0,1) & (1,0,1,1) \\ 
+(1,1,1,0) & (1,1,1,1) & (1,0,1,0) & (1,1,0,1) \\ 
+\end{array} 
+\right.
+& \cong \mathbb Z^4_2
+\\
+C_1
+&=
+\left\{
+\begin{array}{ll}
+(0,0,0,0,0) & (1,0,0,0,0) & (0,1,1,0,0) & (0,1,0,1,0) \\ 
+(0,1,0,0,0) & (0,0,1,0,0) & (0,0,1,1,0) & (0,1,1,1,0) \\ 
+\dots
+\end{array} 
+\right.
+& \cong \mathbb Z^5_2
+\\
+C_2
+&=
+\left\{
+\begin{array}{ll}
+0 & 1
+\end{array} 
+\right.
+& \cong \mathbb Z_2
+\end{align}
+$$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>To represent the boundary map (which is a linear map) of the group of $p$-simplices as a matrix, we set the columns to represent each $p$-simplex in the group, and the rows represent each $(p-1)$-simplex. We put a $1$ in each position of the matrix if the $(p-1)$-simplex row is a <em>face</em> of the $p$-simplex column.</p>
+<p>We index rows and columns as an ordered pair $(i, j)$ respectively. Thus the element $a_{2,3}$ is the element in the 2nd row (from the top) and the 3rd column (from the left).</p>
+<p>The generic boundary matrix is thus (each column is a $p$-simplex, each row is a $(p-1)$-simplex):</p>
+$$ \begin{align}
+\partial_p
+&=
+\begin{pmatrix}
+a_{1,1} & a_{1,2} & a_{1,3} & \cdots & a_{1,j}  \\ 
+a_{2,1} & a_{2,2} & a_{2,3} & \cdots & a_{2,j}  \\ 
+a_{3,1} & a_{3,2} & a_{3,3} & \cdots & a_{3,j}  \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\ 
+a_{i,1} & a_{i,2} & a_{i,3} & \cdots & a_{i,j}
+\end{pmatrix} 
+\end{align}
+$$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We'll start by representing the boundary map $\partial(C_2)$ as a matrix. There's only one 2-simplex in $C_2$ so there is only one column, but there are five 1-simplices in $C_1$ so there are 5 rows.</p>
+$$
+\partial_2 
+=
+\begin{array}{c|lcr}
+\partial & [a,b,c] \\
+\hline
+[a,b] & 1 \\
+[b,c] & 1 \\
+[c,a] & 1 \\
+[c,d] & 0 \\
+[d,b] & 0 \\
+\end{array}
+$$<p>We put a $1$ if each row-element was a face of the simplex $[a,b,c]$. This matrix makes sense as a linear map because if we multiply it by a vector element in $C_2$ (there's only 1, besides the 0 element) we get what we expect:</p>
+$$
+\begin{align}
+\begin{pmatrix}
+1 \\
+1 \\
+1 \\
+0 \\
+0 \\
+\end{pmatrix} * 
+0 \qquad
+&= 
+\qquad
+\begin{pmatrix}
+0 \\
+0 \\
+0 \\
+0 \\
+0 \\
+\end{pmatrix} \\
+\begin{pmatrix}
+1 \\
+1 \\
+1 \\
+0 \\
+0 \\
+\end{pmatrix} * 
+1 \qquad
+&= 
+\qquad
+\begin{pmatrix}
+1 \\
+1 \\
+1 \\
+0 \\
+0 \\
+\end{pmatrix}
+\end{align}
+$$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Okay, let's move on to building the boundary matrix $\partial(C_1)$:</p>
+$$
+\partial_1 =
+\begin{array}{c|lcr}
+\partial & [a,b] & [b,c] & [c,a] & [c,d] & [d,b] \\
+\hline
+a & 1 & 0 & 1 & 0 & 0 \\
+b & 1 & 1 & 0 & 0 & 1 \\
+c & 0 & 1 & 1 & 1 & 0 \\
+d & 0 & 0 & 0 & 1 & 1 \\
+\end{array}
+$$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Does this make sense? Let's check with some python/numpy. Let's take an arbitrary element from the group of 1-chains, namely: $[a,b]+[c,a]+[c,d]$ which we've encoded as $(1,0,1,1,0)$ and apply the boundary matrix and see what we get.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">b1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">]])</span> <span class="c1">#boundary matrix C_1</span>
+<span class="n">el</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span> <span class="c1">#random element from C_1</span>
+<span class="n">np</span><span class="o">.</span><span class="n">fmod</span><span class="p">(</span><span class="n">b1</span> <span class="o">*</span> <span class="n">el</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="c1"># we want integers modulo 2</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[2]:</div>
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>matrix([[0],
+        [1],
+        [0],
+        [1]])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>$\require{cancel}$</p>
+<p>Recall that $(0,1,0,1)$ translates to $b+d$. By hand we can calculate the boundary and compare: 
+$$\partial([a,b]+[c,a]+[c,d]) = a+b+c+a+c+d = \cancel{a}+b+\cancel{c}+\cancel{a}+\cancel{c}+d = b+d = (0,1,0,1)$$</p>
+<p>It works!</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Lastly, we need the boundary matrix for $C_0$ which is trivial since the boundary of $0$-simplices always maps to $0$, so $$
+\partial_0 =
+\begin{pmatrix}
+0 & 0 & 0 & 0 \\
+\end{pmatrix}
 $$</p>
-<p>So the cycle group only contains two elements and is hence isomorphic to $\mathbb Z_2$.</p>
-<blockquote><p><strong>NOTE</strong>: I will introduce new notation. If two mathematical structures (e.g. groups) $G_1, G_2$ are isomorphic, we denote it as $G_1 \cong G_2$</p>
-</blockquote>
-<p>If $\phi = 0$, then we get $\phi([a,b] + [b,c] + [c,a]) = 0([a,b] + [b,c] + [c,a]) = 0 \\$
-, whereas if $\phi = 1$, then $\phi([a,b] + [b,c] + [c,a]) = 1([a,b] + [b,c] + [c,a]) = [a,b] + [b,c] + [c,a] \\$
-So the full group is:
-$$Z_1 = \begin{Bmatrix} [a,b] + [b,c] + [c,a] \\ 0 \end{Bmatrix}$$</p>
+<p>Okay, now we have our three boundary matrices, how do we calculate the Betti numbers? Well recall that sequence of subgroups of a chain group: $ B_n \leq Z_n \leq C_n $ which are the group of boundaries, group of cycles, and chain group, respectively.</p>
 
 </div>
 </div>
@@ -12050,11 +12173,8 @@ $$Z_1 = \begin{Bmatrix} [a,b] + [b,c] + [c,a] \\ 0 \end{Bmatrix}$$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The boundary group $B_1 = Im\partial(C_2)$ but since $C_2$ is an empty set, $B_1 = \{0\}$.</p>
-<p>So once again we can compute the homology group:
-$$H_1 = Z_1 / B_1 = \begin{Bmatrix} [a,b] + [b,c] + [c,a] \\ 0 \end{Bmatrix}$$</p>
-<p>And Betti $b_1 = dim(H_1) = 1$ since we only have one generator in the group $H_1$.</p>
-<p>So that's it for that very simple simplicial complex. We'll move on to a bigger complex. This time I won't be as verbose and will use a lot of the simplifying notation and conventions that I've already defined or described.</p>
+<p>Also recall that Betti $b_n = dim(Z_n\ /\ B_n)$. But that's when things were represented as just sets with group structure, now everything is represented as vectors and matrices, so instead we define the Betti number $b_n = rank(Z_n)\ -\ rank(B_n)$. What does <strong>rank</strong> mean? Rank and dimension are related but not the same. If we think of the columns of a matrix as a set basis vectors: $\beta_1, \beta_2, \dots \beta_k$ then the dimension of the span of those column vectors $\langle \beta_1, \beta_2, \dots \beta_k \rangle$ is the rank of the matrix. It turns out that you can also use the rows and it will have the same result. Importantly, however, dimension is defined on the smallest set of basis elements, i.e. the basis elements that are linearly independent.</p>
+<p>The boundary matrix $\partial_n$ contains the information for the chain group and cycles subgroup, and the $B_{n-1}$ boundary subgroup, all the information we need to calculate the Betti number. Unfortunately, in general, our naïve approach of building the boundary matrix is not in a form where the group and subgroup information is readily accessible. We need to modify the boundary matrix, without disturbing the mapping information it contains, into a new form called <strong>Smith normal form</strong>. Basically, the smith normal form of a matrix will have $1$s along the diagonal starting from the top left of the matrix and $0$s everywhere else.</p>
 
 </div>
 </div>
@@ -12064,49 +12184,76 @@ $$H_1 = Z_1 / B_1 = \begin{Bmatrix} [a,b] + [b,c] + [c,a] \\ 0 \end{Bmatrix}$$</
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Let's do the same but with a slightly more complicated simplicial complex that we've seen before:
-$$S = \text{ {[a], [b], [c], [d], [a, b], [b, c], [c, a], [c, d], [d, b], [a, b, c]} }$$ (Depicted below).
-<img src="/images/TDAimages/simplicialcomplex5b.svg" /></p>
-<p>Notice we now have a 2-simplex [a, b, c], depicted as the filled in triangle.</p>
-<p>This time we will use the full integer field $\mathbb Z$ for our coefficients, thus the resulting vector spaces will be infinite instead of finite spaces that we could list out. Since we're using $\mathbb Z$, we must define what it means to be a "negative" simplex, e.g. what does $-[c,a]$ <em>mean</em>? Well we discussed this previously. Basically we define two ways a simplex can be oriented and opposite orientation to the original definition will be assigned the "negative" value of a simplex.</p>
-<p>So $[a,c] = -[c,a]$. But what about $[a,b,c]$? There are more than two ways to permute a 3 element list, but there only two orientations. <br />
-If you look at the oriented simplex from before:
-<img src="/images/TDAimages/triangleSimplex.svg" />
-There are only two ways you can "go around" the loop. Either clockwise or counterclockwise.<br />
-$[a,b,c]$ is clockwise (and we'll call it positive).<br />
-$[c,a,b]$ is also clockwise (so $[c,a,b] = [a,b,c]$)<br />
-$[a,c,b]$ is a counterclockwise, as well as $[b,c,a]$, so $[a,b,c] = [c,a,b] = -[a,c,b] = -[b,c,a]$.<br /></p>
-<p>Let's start by listing our chain groups.
-$$ C_0 = \langle{a,b,c,d}\rangle \cong \mathbb Z^4 \\
-C_1 = \langle{[a, b], [b, c], [c, a], [c, d], [d, b]}\rangle \cong \mathbb Z^5 \\
-C_2 = \langle{[a, b, c]}\rangle \cong \mathbb Z \\ $$</p>
-<p>Recall the angle brackets mean <em>span</em>, i.e. the set of all linear combinations of the elements between the angle brackets. This is obviously much more succinct than how we we're building the groups in our last example. And note how each group is isomorphic to the vector space $\mathbb Z^n$ where $n$ is the number of simplices in the n-chain.<br /></p>
-<p>We can thus describe our <em>chain complex</em> as:</p>
-$$C_2 \stackrel{\partial_1}\rightarrow C_1 \stackrel{\partial_0}\rightarrow C_0$$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>We know, since we can easily visualize the simplicial complex, that it has one connected component and one 1-cycle (one 1-dimensional hole). Hence, Betti $b_0 = 1, b_1 = 1$. But we need to calculate that for ourselves.</p>
-<p>Let's start from the higher-dimensional chain group, the 2-chain group.</p>
-<p>Remember, $Z_n = \text{Ker}\partial(C_n)$ the group of n-cycles, which is a subgroup of $C_n$. And $B_n = \text{Im}\partial(C_{n+1})$ is the group of n-boundaries, which is a subgroup of the n-cycles. Hence $B_n \leq Z_n \leq C_n$. Also recall, the homology group $H_n = Z_n\ /\ B_n$ and the n-th Betti number is the dimension of the n-th homology group.</p>
-<p>To find $Z_n$, we have to setup our expression for a general element in $C_n$.
+<p>For example,
 $$
-\begin{aligned}
-C_2 &= \lambda_0{[a,b,c]},  \lambda_0 \in \mathbb{Z} \\
-Z_2 &= \text{Ker}\partial{(C_2)} \\
-\partial{(C_2)} &= \lambda_0{([b,c])} - \lambda_0{([a,c])} + \lambda_0{([a,b])} \text{ ...set it equal to 0 to get Kernel} \\
-\lambda_0{([b,c])} - \lambda_0{([a,c])} + \lambda_0{([a,b])} &= 0 \\
-\lambda_0{([b,c] - [a,c] + [a,b])} &= 0 \\
-\lambda_0 &= 0  \text{ ... there is only a single solution where $\lambda_0 = 0$, then $0=0$. } \\
-\lambda_0{[a,b,c]} &= 0, \lambda_0 = 0 \text{ ... so nothing in $C_2$ goes to 0, thus it's only {0} in the Kernel} \\
-... \\
-\text{Ker}\partial{(C_2)} &= \{0\} \\
-\end{aligned}
+\begin{align}
+\text{Smith normal form}
+&:\ 
+\begin{pmatrix}
+1 & 0 & 0 & \cdots & 0  \\ 
+0 & 1 & 0 & \cdots & 0  \\ 
+0 & 0 & 1 & \cdots & 0  \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\ 
+0 & 0 & 0 & \cdots & ?
+\end{pmatrix} 
+\end{align}
+$$</p>
+<p>Notice the $1$s along the diagonal do not necessarily need to extend all the way down to the bottom right. And here's the information available once it's in Smith normal form (the red diagonal box indicates the $1$s):
+<img src="../images/TDAimages/part4/smithnormalformsubgroups.svg" />
+(Source: "COMPUTATIONAL TOPOLOGY" by Edelsbrunner and Harer, pg. 104)</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>So how do we get a matrix into Smith normal form? We do so by playing a game involving manipulating the matrix according to some rules. Here are the two allowed operations on the matrix:</p>
+<ol>
+<li>You can swap any two columns or any two rows in the matrix.</li>
+<li>You can add a column to another column, or a row to another row.</li>
+</ol>
+<p>Now you just need to apply these operations until you get the matrix in Smith normal form. I should point out that this process is alot easier when we use the field $\mathbb Z_2$. Let's try it out on the boundary matrix for $C_1$.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$
+\partial_1 =
+\begin{array}{c|lcr}
+\partial & [a,b] & [b,c] & [c,a] & [c,d] & [d,b] \\
+\hline
+a & 1 & 0 & 1 & 0 & 0 \\
+b & 1 & 1 & 0 & 0 & 1 \\
+c & 0 & 1 & 1 & 1 & 0 \\
+d & 0 & 0 & 0 & 1 & 1 \\
+\end{array}
+$$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We already have 1s across the diagonal, but we have a lot of 1s not along the diagonal.<br />
+Steps: Add column 3 to 5, then add column 4 to 5, then add column 5 to 1, then swap columns 1 and 5:
+$$
+\partial_1 =
+\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 \\
+1 & 1 & 0 & 0 & 0 \\
+0 & 1 & 1 & 1 & 0 \\
+0 & 0 & 0 & 1 & 0 \\
+\end{pmatrix}
 $$</p>
 
 </div>
@@ -12117,77 +12264,513 @@ $$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Since there are no 3-simplices or higher, $B_2 = {0}$. Thus Betti $b_2 = dim(\{0\} / \{0\}) = 0$. This is what we expect, there are no 2-dimensional holes in the simplicial complex.</p>
-<p>Let's do the same for $C_1$.</p>
+<p>Steps: Add column 1 to 3, add column 2 to 3, swap columns 3 and 4, add row 1 to 2, add row 4 to 2, add row 3 to 2, add row 4 to 3, swap rows 3 and 2, swap rows 4 and 3. Stop.
 $$
-\begin{aligned}
-C_1 &= \lambda_0[a, b] + \lambda_1[b, c] + \lambda_2[c, a] + \lambda_3[c, d] + \lambda_4[d, b],  \lambda_n \in \mathbb{Z} \\
-Z_1 &= \text{Ker}\partial{(C_1)} \\
-\partial{(C_1)} &= \lambda_0{(a - b)} + \lambda_1{(b - c)} + \lambda_2{(c - a)} + \lambda_3{(c - d)} + \lambda_4{(d - b)} \\
-\text{ ...set it equal to 0 to get Kernel} \\
-\lambda_0{(a - b)} + \lambda_1{(b - c)} + \lambda_2{(c - a)} + \lambda_3{(c - d)} + \lambda_4{(d - b)} &= 0 \\
-\lambda_0a - \lambda_0b + \lambda_1b - \lambda_1c + \lambda_2c - \lambda_2a + \lambda_3c - \lambda_3d + \lambda_4d - \lambda_4b &= 0 \text { ...factor out the a,b,c,d}\\
-a(\lambda_0 - \lambda_2) + b(\lambda_1 - \lambda_0 - \lambda_4) + c(\lambda_2 - \lambda_1 + \lambda_3) + d(\lambda_4 - \lambda_3) &= 0 \\
-\text{Now we can setup a system of linear equations...} \\
-\lambda_0 - \lambda_2 &= 0 \\
-\lambda_1 - \lambda_0 - \lambda_4 &= 0 \\
-\lambda_2 - \lambda_1 + \lambda_3 &= 0 \\
-\lambda_4 - \lambda_3 &= 0 \\
-\text{Solve the equations, plug the solutions back into the original $C_1$ expression...} \\
-\lambda_0([a,b] + [b,c] + [c,a]) + \lambda_3([b,c] + \cancel{[a,c]} + [c,d] + \cancel{[c,a]} + [d,b]) &= \text{Ker}\partial{(C_1)} \\
-\text{Ker}\partial{(C_1)} &= \lambda_0([a,b] + [b,c] + [c,a]) + \lambda_3([b,c] + [c,d] + [d,b]) \\
-Z_1 = \text{Ker}\partial{(C_1)} &\cong \mathbb Z^2
-\end{aligned}
+\text{Smith normal form: }
+\begin{pmatrix}
+1 & 0 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 \\
+\end{pmatrix}
 $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Now to get the boundaries $B_1 = Im\partial(C_2)$.
-$$
-\begin{aligned}
-\partial(C_2) &= \lambda_0{([b,c])} - \lambda_0{([a,c])} + \lambda_0{([a,b])} \text {... remember $-[a,c] = [c,a]$ ...} \\
-\partial(C_2) &= \lambda_0{([b,c] + [c,a] + [a,b])} \\
-B_1 = Im\partial(C_2) &= \{\lambda_0{([b,c] + [c,a] + [a,b])}\}, \lambda_0 \in \mathbb Z \\
-B_1 &\cong Z \\
-H_1 = Z_1\ /\ B_1 &= \{\lambda_0([a,b] + [b,c] + [c,a]) + \lambda_3([b,c] + [c,d] + [d,b])\}\ /\ \{\lambda_0{([b,c] + [c,a] + [a,b])}\} \\
-H_1 &= \{\lambda_3([b,c] + [c,d] + [d,b])\} \cong \mathbb Z
-\end{aligned}
-$$</p>
+Once we have the matrix in Smith normal form, we don't do any more operations. We could of course continue adding rows and columns together until we get a matrix of only 0s, but that wouldn't be very helpful! I sort of randomly added rows/columns to get it into the Smith normal form, but there really is an algorithm that can do it relatively efficiently.</p>
+<p>Rather than walk through the detailed implementation of the Smith normal form algorithm, I will merely use an <a href="https://triangleinequality.wordpress.com/2014/01/23/computing-homology/">existing algorithm</a>:</p>
 
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Another way to more easily take the quotient group $H_1 = Z_1\ /\ B_1$ is to just pay attention to what $Z_n, B_n$ are isomorphic to in terms of $\mathbb Z^n$. In this case:
-$$ Z_1 \cong \mathbb Z^2 \\
-B_1 \cong \mathbb Z^1 \\
-H_1 = \mathbb Z^2\ /\  \mathbb Z = \mathbb Z$$</p>
-<p>So since $H_1 \cong \mathbb Z$, the Betti number for $H_1$ is 1 because the dimension of $\mathbb Z$ is 1 (it only has one generator or basis).</p>
-<p>So I think you get the point by now, I'm not going to go through all the details of calculating Betti $b_0$, it should be 1 since there is only one connected component.</p>
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">reduce_matrix</span><span class="p">(</span><span class="n">matrix</span><span class="p">):</span>
+    <span class="c1">#Returns [reduced_matrix, rank, nullity]</span>
+    <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">size</span><span class="p">(</span><span class="n">matrix</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[</span><span class="n">matrix</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">m</span><span class="o">=</span><span class="n">matrix</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">n</span><span class="o">=</span><span class="n">matrix</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+ 
+    <span class="k">def</span> <span class="nf">_reduce</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+        <span class="c1">#We recurse through the diagonal entries.</span>
+        <span class="c1">#We move a 1 to the diagonal entry, then</span>
+        <span class="c1">#knock out any other 1s in the same  col/row.</span>
+        <span class="c1">#The rank is the number of nonzero pivots,</span>
+        <span class="c1">#so when we run out of nonzero diagonal entries, we will</span>
+        <span class="c1">#know the rank.</span>
+        <span class="n">nonzero</span><span class="o">=</span><span class="kc">False</span>
+        <span class="c1">#Searching for a nonzero entry then moving it to the diagonal.</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">m</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">n</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">matrix</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">]</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+                    <span class="n">matrix</span><span class="p">[[</span><span class="n">x</span><span class="p">,</span><span class="n">i</span><span class="p">],:]</span><span class="o">=</span><span class="n">matrix</span><span class="p">[[</span><span class="n">i</span><span class="p">,</span><span class="n">x</span><span class="p">],:]</span>
+                    <span class="n">matrix</span><span class="p">[:,[</span><span class="n">x</span><span class="p">,</span><span class="n">j</span><span class="p">]]</span><span class="o">=</span><span class="n">matrix</span><span class="p">[:,[</span><span class="n">j</span><span class="p">,</span><span class="n">x</span><span class="p">]]</span>
+                    <span class="n">nonzero</span><span class="o">=</span><span class="kc">True</span>
+                    <span class="k">break</span>
+            <span class="k">if</span> <span class="n">nonzero</span><span class="p">:</span>
+                <span class="k">break</span>
+        <span class="c1">#Knocking out other nonzero entries.</span>
+        <span class="k">if</span> <span class="n">nonzero</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">m</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">matrix</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">x</span><span class="p">]</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+                    <span class="n">matrix</span><span class="p">[</span><span class="n">i</span><span class="p">,:]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">logical_xor</span><span class="p">(</span><span class="n">matrix</span><span class="p">[</span><span class="n">x</span><span class="p">,:],</span> <span class="n">matrix</span><span class="p">[</span><span class="n">i</span><span class="p">,:])</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">matrix</span><span class="p">[</span><span class="n">x</span><span class="p">,</span><span class="n">i</span><span class="p">]</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+                    <span class="n">matrix</span><span class="p">[:,</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">logical_xor</span><span class="p">(</span><span class="n">matrix</span><span class="p">[:,</span><span class="n">x</span><span class="p">],</span> <span class="n">matrix</span><span class="p">[:,</span><span class="n">i</span><span class="p">])</span>
+            <span class="c1">#Proceeding to next diagonal entry.</span>
+            <span class="k">return</span> <span class="n">_reduce</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1">#Run out of nonzero entries so done.</span>
+            <span class="k">return</span> <span class="n">x</span>
+    <span class="n">rank</span><span class="o">=</span><span class="n">_reduce</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">matrix</span><span class="p">,</span> <span class="n">rank</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="n">rank</span><span class="p">]</span>
+
+<span class="c1"># Source: &lt; https://triangleinequality.wordpress.com/2014/01/23/computing-homology/ &gt;</span>
+</pre></div>
 
 </div>
 </div>
 </div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">reduce_matrix</span><span class="p">(</span><span class="n">b1</span><span class="p">)</span>
+<span class="c1">#Returns the matrix in Smith normal form as well as rank(B_n-1) and rank(Z_n)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[29]:</div>
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[matrix([[1, 0, 0, 0, 0],
+         [0, 1, 0, 0, 0],
+         [0, 0, 1, 0, 0],
+         [0, 0, 0, 0, 0]]), 3, 2]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h5 id="Next-time...">Next time...<a class="anchor-link" href="#Next-time...">&#182;</a></h5>
-<p>We've learned how to calculate homology groups and Betti numbers of simple simplicial complexes by hand.
-  But we're going to need to develop some new tools so that we can let computer algorithms handle these calculations for the real, and generally much larger, simplicial complexes.
-  Next time we'll see how linear algebra gives us an efficient means of doing this. <br />
-<!---Go to <a href="/Topological+Data+Analysis+Tutorial+-+Part+4/">Part 4</a>--->
-</p>
+<p>As you can see we got the same result by hand, but surely the algorithm was more efficient.</p>
+<p>Since each boundary map gives us $Z_n$ (cycles) and $B_{n-1}$ (boundary for (n-1)-chain group) we need both $\partial_n$ and $\partial_{n+1}$ in order to calculate the Betti number for chain group $n$. Remember, we now calculate Betti numbers as <br />
+Betti $b_n = rank(Z_n) - rank(B_n)$</p>
+<p>Let's start calculating those Betti numbers.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Initialize boundary matrices</span>
+<span class="n">boundaryMap0</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">([[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]])</span>
+<span class="n">boundaryMap1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">]])</span>
+<span class="n">boundaryMap2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]])</span>
+
+<span class="c1">#Smith normal forms of the boundary matrices</span>
+<span class="n">smithBM0</span> <span class="o">=</span> <span class="n">reduce_matrix</span><span class="p">(</span><span class="n">boundaryMap0</span><span class="p">)</span>
+<span class="n">smithBM1</span> <span class="o">=</span> <span class="n">reduce_matrix</span><span class="p">(</span><span class="n">boundaryMap1</span><span class="p">)</span>
+<span class="n">smithBM2</span> <span class="o">=</span> <span class="n">reduce_matrix</span><span class="p">(</span><span class="n">boundaryMap2</span><span class="p">)</span>
+
+<span class="c1">#Calculate Betti numbers</span>
+<span class="n">betti0</span> <span class="o">=</span> <span class="p">(</span><span class="n">smithBM0</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">-</span> <span class="n">smithBM1</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">betti1</span> <span class="o">=</span> <span class="p">(</span><span class="n">smithBM1</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">-</span> <span class="n">smithBM2</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">betti2</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1">#There is no n+1 chain group, so the Betti is 0</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">smithBM0</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">smithBM1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">smithBM2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Betti #0: </span><span class="si">%s</span><span class="s2"> </span><span class="se">\n</span><span class="s2"> Betti #1: </span><span class="si">%s</span><span class="s2"> </span><span class="se">\n</span><span class="s2"> Betti #2: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">betti0</span><span class="p">,</span> <span class="n">betti1</span><span class="p">,</span> <span class="n">betti2</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[matrix([[0, 0, 0, 0]]), 0, 4]
+[matrix([[1, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0],
+        [0, 0, 1, 0, 0],
+        [0, 0, 0, 0, 0]]), 3, 2]
+[matrix([[1, 0, 0, 0, 0]]), 1, 4]
+Betti #0: 1 
+ Betti #1: 1 
+ Betti #2: 0
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Great it worked!</p>
+<p>But we skipped an important step. We designed the boundary matrices by hand initially, in order to algorithm-ize the entire process from building a simplicial complex over data to computing Betti numbers, we need an algorithm that takes a simplicial complex and builds the boundary matrices. Let's tackle that now.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[138]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#return the n-simplices in a complex</span>
+<span class="k">def</span> <span class="nf">nSimplices</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="nb">complex</span><span class="p">):</span>
+    <span class="n">nchain</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">simplex</span> <span class="ow">in</span> <span class="nb">complex</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">simplex</span><span class="p">)</span> <span class="o">==</span> <span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+            <span class="n">nchain</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">simplex</span><span class="p">)</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">nchain</span> <span class="o">==</span> <span class="p">[]):</span> <span class="n">nchain</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">nchain</span>
+
+<span class="c1">#check if simplex is a face of another simplex</span>
+<span class="k">def</span> <span class="nf">checkFace</span><span class="p">(</span><span class="n">face</span><span class="p">,</span> <span class="n">simplex</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">simplex</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="nb">set</span><span class="p">(</span><span class="n">face</span><span class="p">)</span> <span class="o">&lt;</span> <span class="nb">set</span><span class="p">(</span><span class="n">simplex</span><span class="p">):</span> <span class="c1">#if face is a subset of simplex</span>
+        <span class="k">return</span> <span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="mi">0</span>
+    
+<span class="c1">#build boundary matrix for dimension n ---&gt; (n-1) = p</span>
+<span class="k">def</span> <span class="nf">boundaryMatrix</span><span class="p">(</span><span class="n">nchain</span><span class="p">,</span> <span class="n">pchain</span><span class="p">):</span>
+    <span class="n">bmatrix</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">nchain</span><span class="p">),</span><span class="nb">len</span><span class="p">(</span><span class="n">pchain</span><span class="p">)))</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">nSimplex</span> <span class="ow">in</span> <span class="n">nchain</span><span class="p">:</span>
+        <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">pSimplex</span> <span class="ow">in</span> <span class="n">pchain</span><span class="p">:</span>
+            <span class="n">bmatrix</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">checkFace</span><span class="p">(</span><span class="n">pSimplex</span><span class="p">,</span> <span class="n">nSimplex</span><span class="p">)</span>
+            <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">bmatrix</span><span class="o">.</span><span class="n">T</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Those are very simple helper functions that we'll use to build the boundary matrix and then use the previously described reduction algorithm to get it into Smith normal form. Remember, the simplicial complex example we're using looks like this:
+<img src="../images/TDAimages/part4/simplicialcomplex5b.svg" />
+I've just replaced {a,b,c,d} with {0,1,2,3} so Python can understand it.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[139]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">S</span> <span class="o">=</span> <span class="p">[{</span><span class="mi">0</span><span class="p">},</span> <span class="p">{</span><span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">}]</span> <span class="c1">#this is our simplex from above</span>
+
+<span class="n">chain2</span> <span class="o">=</span> <span class="n">nSimplices</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">S</span><span class="p">)</span>
+<span class="n">chain1</span> <span class="o">=</span> <span class="n">nSimplices</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">S</span><span class="p">)</span>
+<span class="n">reduce_matrix</span><span class="p">(</span><span class="n">boundaryMatrix</span><span class="p">(</span><span class="n">chain2</span><span class="p">,</span> <span class="n">chain1</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[139]:</div>
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[array([[ 1.,  0.,  0.,  0.,  0.],
+        [ 0.,  1.,  0.,  0.,  0.],
+        [ 0.,  0.,  1.,  0.,  0.],
+        [ 0.,  0.,  0.,  0.,  0.]]), 3, 2]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Now let's put everything together and make a function that will return all the Betti numbers of a simplicial complex.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[206]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">betti</span><span class="p">(</span><span class="nb">complex</span><span class="p">):</span>
+    <span class="n">max_dim</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="nb">complex</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="nb">len</span><span class="p">))</span> <span class="c1">#get the maximum dimension of the simplicial complex, 2 in our example</span>
+    <span class="n">betti_array</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">max_dim</span><span class="p">)</span> <span class="c1">#setup array to store n-th dimensional Betti numbers</span>
+    <span class="n">z_n</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">max_dim</span><span class="p">)</span> <span class="c1">#number of cycles (from cycle group)</span>
+    <span class="n">b_n</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">max_dim</span><span class="p">)</span> <span class="c1">#b_(n-1) boundary group</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_dim</span><span class="p">):</span> <span class="c1">#loop through each dimension starting from maximum to generate boundary maps</span>
+        <span class="n">bm</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1">#setup n-th boundary matrix</span>
+        <span class="n">chain2</span> <span class="o">=</span> <span class="n">nSimplices</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="nb">complex</span><span class="p">)</span> <span class="c1">#n-th chain group</span>
+        <span class="k">if</span> <span class="n">i</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span> <span class="c1">#there is no n+1 boundary matrix in this case</span>
+            <span class="n">bm</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="n">z_n</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">chain2</span><span class="p">)</span>
+            <span class="n">b_n</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">chain1</span> <span class="o">=</span> <span class="n">nSimplices</span><span class="p">(</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="nb">complex</span><span class="p">)</span> <span class="c1">#(n-1)th chain group</span>
+            <span class="n">bm</span> <span class="o">=</span> <span class="n">reduce_matrix</span><span class="p">(</span><span class="n">boundaryMatrix</span><span class="p">(</span><span class="n">chain2</span><span class="p">,</span> <span class="n">chain1</span><span class="p">))</span>
+            <span class="n">z_n</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">bm</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+            <span class="n">b_n</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">bm</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="c1">#b_(n-1)</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_dim</span><span class="p">):</span> <span class="c1">#Calculate betti number: Z_n - B_n</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">max_dim</span><span class="p">:</span>
+            <span class="n">betti_array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">z_n</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">b_n</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">betti_array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">z_n</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="mi">0</span> <span class="c1">#if there are no higher simplices, the boundary group of this chain is 0</span>
+
+    <span class="k">return</span> <span class="n">betti_array</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Alright, no we should have everything we need to calculate the set of Betti numbers on any arbitrary simplicial complex given in the right format. Keep in mind that all this code is for learning purposes so I've kept it intentionally simple. It is not production ready. It has basically no safety checks so it will just fail if it gets something even slightly unexpected.</p>
+<p>But let's see how versatile our procedure is by trying it out on various simplicial complexes.</p>
+<p>Let $H = \text{ { {0}, {1}, {2}, {3}, {4}, {5}, {4, 5}, {0, 1}, {1, 2}, {2, 0}, {2, 3}, {3, 1}, {0, 1, 2} } }$
+<img src="../images/TDAimages/part4/simplicialComplex7a.png" /></p>
+<p>As you can tell this is the same simplicial complex we've been working with except now it has a disconnected edge on the right. Thus we should get Betti=2 for dimension 0 since there are 2 connect components.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[212]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">H</span> <span class="o">=</span> <span class="p">[{</span><span class="mi">0</span><span class="p">},</span> <span class="p">{</span><span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">4</span><span class="p">},</span> <span class="p">{</span><span class="mi">5</span><span class="p">},</span> <span class="p">{</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">}]</span>
+<span class="n">betti</span><span class="p">(</span><span class="n">H</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[212]:</div>
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([ 2.,  1.,  0.])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Let's try another one, now with 2 cycles and 2 connect components. <br />
+Let $Y_1 = \text{ { {0}, {1}, {2}, {3}, {4}, {5}, {6}, {0, 6}, {2, 6}, {4, 5}, {0, 1}, {1, 2}, {2, 0}, {2, 3}, {3, 1}, {0, 1, 2} } }$
+<img src="../images/TDAimages/part4/simplicialComplex7b.png" /></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[213]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Y1</span> <span class="o">=</span> <span class="p">[{</span><span class="mi">0</span><span class="p">},</span> <span class="p">{</span><span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">4</span><span class="p">},</span> <span class="p">{</span><span class="mi">5</span><span class="p">},</span> <span class="p">{</span><span class="mi">6</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">},</span> <span class="p">{</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">}]</span>
+<span class="n">betti</span><span class="p">(</span><span class="n">Y1</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[213]:</div>
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([ 2.,  2.,  0.])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Here's another. I just added a stranded vertex: <br />
+Let $Y_2 = \text{ { {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {0, 6}, {2, 6}, {4, 5}, {0, 1}, {1, 2}, {2, 0}, {2, 3}, {3, 1}, {0, 1, 2} } }$
+<img src="../images/TDAimages/part4/simplicialComplex7c.png" /></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[214]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Y2</span> <span class="o">=</span> <span class="p">[{</span><span class="mi">0</span><span class="p">},</span> <span class="p">{</span><span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">4</span><span class="p">},</span> <span class="p">{</span><span class="mi">5</span><span class="p">},</span> <span class="p">{</span><span class="mi">6</span><span class="p">},</span> <span class="p">{</span><span class="mi">7</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">},</span> <span class="p">{</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">}]</span>
+<span class="n">betti</span><span class="p">(</span><span class="n">Y2</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[214]:</div>
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([ 3.,  2.,  0.])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>One last one. This is a hollow tetrahedron:
+<img src="../images/TDAimages/part4/simplicialComplex8a.png" /></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[215]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">D</span> <span class="o">=</span> <span class="p">[{</span><span class="mi">0</span><span class="p">},</span> <span class="p">{</span><span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span><span class="mi">0</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">},</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">}]</span>
+<span class="n">betti</span><span class="p">(</span><span class="n">D</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[215]:</div>
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([ 1.,  0.,  1.])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Exactly what we expect! Okay, it looks like we can reliably calculate Betti numbers for any arbitrary simplicial complex.</p>
+<h6 id="What's-next?">What's next?<a class="anchor-link" href="#What's-next?">&#182;</a></h6><p>These first 4 posts were all just exposition on the math and concepts behind persistent homology, but so far all we've done is (non-persistent) homology. Remember back in part 2 where we wrote an algorithm to build a simplicial complex from data? Well recall that we needed to arbitrarily choose a parameter $\epsilon$ that determined whether or not two vertices were close enough to connect with an edge. If we set a small $\epsilon$ then we'd have a very dense graph with a lot of edges, if we chose a large $\epsilon$ then we'd get a more sparse graph.</p>
+<p>The problem is we have no way of knowing what the "correct" $\epsilon$ value should be. We will get dramatically different simplicial complexes (and thus different homology groups and Betti numbers) with varying levels of $\epsilon$. Persistent homology basically says: let's just continuously scale $\epsilon$ from 0 to the maximal value (where all vertices are edge-wise connected) and see which topological features <em>persist</em> the longest. We then believe that topological features (e.g. connected components, cycles) that are short-lived across scaling $\epsilon$ are noise whereas those that are long-lived (i.e. persistent) are <em>real</em> features of the data. So next time we will work on modifying our algorithms to be able to continuously vary $\epsilon$ while tracking changes in the calculated homology groups.</p>
 
 </div>
 </div>
@@ -12204,6 +12787,7 @@ H_1 = \mathbb Z^2\ /\  \mathbb Z = \mathbb Z$$</p>
 <li><a href="https://jeremykun.com/2013/04/03/homology-theory-a-primer/">https://jeremykun.com/2013/04/03/homology-theory-a-primer/</a></li>
 <li><a href="http://suess.sdf-eu.org/website/lang/de/algtop/notes4.pdf">http://suess.sdf-eu.org/website/lang/de/algtop/notes4.pdf</a></li>
 <li><a href="http://www.mit.edu/~evanchen/napkin.html">http://www.mit.edu/~evanchen/napkin.html</a></li>
+<li><a href="https://triangleinequality.wordpress.com/2014/01/23/computing-homology">https://triangleinequality.wordpress.com/2014/01/23/computing-homology</a></li>
 </ol>
 
 </div>
@@ -12264,99 +12848,7 @@ H_1 = \mathbb Z^2\ /\  \mathbb Z = \mathbb Z$$</p>
   </div>
 </body>
 
+ 
 
 
-
-</html>
-
-  </div>
-
-  <div class="date">
-    Written on February 23, 2017
-  </div>
-
-  
-<div class="comments">
-	<div id="disqus_thread"></div>
-	<script type="text/javascript">
-
-	    var disqus_shortname = 'outlace';
-
-	    (function() {
-	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	    })();
-
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-
-</article>
-
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          
-<div id="disqus_thread"></div>
-<script>
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-     */
-    /*
-    var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-
-        s.src = '//outlace.disqus.com/embed.js';
-
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
-
-          
-<a href="mailto:outlacedev@gmail.com"><i class="svg-icon email"></i></a>
-
-
-<a href="https://github.com/outlace"><i class="svg-icon github"></i></a>
-
-
-
-<a href="/feed.xml"><i class="svg-icon rss"></i></a>
-
-
-
-
-        </footer>
-      </div>
-    </div>
-
-    
-	<!-- Google Analytics -->
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-65814776-1', 'auto');
-		ga('send', 'pageview', {
-		  'page': '/Topological+Data+Analysis+Tutorial+-+Part+3/',
-		  'title': 'Persistent Homology (Part 3)'
-		});
-	</script>
-	<!-- End Google Analytics -->
-
-
-  </body>
 </html>
